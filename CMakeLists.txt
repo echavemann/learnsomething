@@ -15,6 +15,3 @@ FetchContent_Declare(
     GIT_TAG release-1.11.0
 )
 FetchContent_MakeAvailable(googletest)
-
-# Link against Google Test
-target_link_libraries(MyApp PRIVATE gtest_main)
