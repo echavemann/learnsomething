@@ -2,8 +2,8 @@
 cmake_minimum_required(VERSION 3.21)
 project(learnsomething LANGUAGES CXX)
 
-#Make C++ 20 required.
-set(CMAKE_CXX_STANDARD 20)
+#Make C++ 17 required.
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
@@ -15,3 +15,11 @@ FetchContent_Declare(
     GIT_TAG release-1.11.0
 )
 FetchContent_MakeAvailable(googletest)
+
+add_executable(TradeRiskTracker)
+
+target_sources(TradeRiskTracker PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/main.cpp
+)
+
+target_link_libraries(TradeRiskTracker PRIVATE gtest_main)
