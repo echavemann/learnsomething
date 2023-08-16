@@ -19,6 +19,7 @@ FetchContent_MakeAvailable(googletest)
 # Add the main executable and its sources
 add_executable(TradeRiskTracker
     ${CMAKE_SOURCE_DIR}/src/main.cpp
+    ${CMAKE_SOURCE_DIR}/src/Trade.cpp
 )
 
 # Add the test executable and its sources
