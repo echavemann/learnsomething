@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Trade.h"
+#include "trade.h"
 
 int main()
 {  
