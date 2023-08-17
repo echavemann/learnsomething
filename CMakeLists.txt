@@ -1,44 +1,46 @@
-# Declare the project and its languages
 cmake_minimum_required(VERSION 3.21)
 project(learnsomething LANGUAGES CXX)
 
-# Make C++ 17 required.
+# GoogleTest requires at least C++17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
 
-# Fetch GTest
 include(FetchContent)
 FetchContent_Declare(
         googletest
-        GIT_REPOSITORY https://github.com/google/googletest.git
-        GIT_TAG release-1.11.0
+        URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
 )
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) #windows tings
 FetchContent_MakeAvailable(googletest)
+enable_testing()
 
-# Add the main executable and its sources
-add_executable(TradeRiskTracker
+add_executable(
+        TradeRiskTracker
         ${CMAKE_SOURCE_DIR}/src/main.cpp
         ${CMAKE_SOURCE_DIR}/src/trade.cpp
         ${CMAKE_SOURCE_DIR}/src/risktracker.cpp
-        )
-
-# Add the test executable and its sources
-add_executable(TradeRiskTrackerTests
-        ${CMAKE_SOURCE_DIR}/tst/temp.cpp
-        )
-
-# Link the main executable with Google Test
-target_link_libraries(TradeRiskTracker PRIVATE gtest_main)
-
-# Link the test executable with Google Test
-target_link_libraries(TradeRiskTrackerTests PRIVATE gtest_main)
-
-# Include Google Test
-include(GoogleTest)
-gtest_discover_tests(TradeRiskTrackerTests)
-
-# Add the src directory to include path for the tests
-target_include_directories(TradeRiskTrackerTests PRIVATE
+)
+target_include_directories(
+        TradeRiskTracker PRIVATE
         ${CMAKE_SOURCE_DIR}/src
-        )
+)
+target_link_libraries(
+        TradeRiskTracker
+        GTest::gtest_main
+)
+
+add_executable(
+        TradeRiskTrackerTests
+        ${CMAKE_SOURCE_DIR}/tst/test_trade.cpp
+        ${CMAKE_SOURCE_DIR}/tst/temp.cpp
+        ${CMAKE_SOURCE_DIR}/tst/test_traderisktracker.cpp
+        ${CMAKE_SOURCE_DIR}/src/trade.cpp
+)
+target_include_directories(
+        TradeRiskTrackerTests PRIVATE
+        ${CMAKE_SOURCE_DIR}/src
+)
+target_link_libraries(
+        TradeRiskTrackerTests
+        GTest::gtest_main
+)

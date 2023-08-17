@@ -10,10 +10,13 @@
 class RiskTracker {
 public:
     float totalRisk = 0;
-    std::vector<Trade> pendingTrades;
-    TradeRiskTracker(float x, std::vector<Trade> trades);
+    std::vector <Trade> pendingTrades;
+
+    RiskTracker(float x, std::vector <Trade> trades);
+
     int updateRisk();
 
+    int addTrade(Trade trade);
 };
 
 #endif //LEARNSOMETHING_RISKTRACKER_H
