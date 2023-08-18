@@ -1,7 +1,7 @@
 #include "trade.h"
 #include <gtest/gtest.h>
 
-TEST(TRTTest, TradeInit) {
+TEST(TradeRiskTrackerTest, TradeInit) {
     Trade testTrade(7, true, 1.2);
     EXPECT_EQ(testTrade.quantity, 7);
     EXPECT_NEAR(testTrade.price, 1.2, 1e-6); //fp

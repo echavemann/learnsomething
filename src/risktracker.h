@@ -17,6 +17,8 @@ public:
     int updateRisk();
 
     int addTrade(Trade trade);
+
+    float getRisk();
 };
 
 #endif //LEARNSOMETHING_RISKTRACKER_H
