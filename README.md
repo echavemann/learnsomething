@@ -4,7 +4,11 @@
 
 Thanks to your diligent work, on the last step, you have not been fired immediately. The company transfers you to train
 under a QR, who immediately sets you to work on building a pricing utility using C++ that he can directly import using
-Python. The Python script, pricing formula, and some simple unit tests will be provided to help you with development.
+Python. The Python script and pricing formula will be provided to help you with development.
+
+Pricing formula is as follows:
+Theoretical Value = (Previous Price * (0.9 + Interest Rate)) * Oleo Constant.You should take all 3 variables as input
+floats into your function.
 
 ## Instructions
 
