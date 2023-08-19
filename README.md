@@ -4,18 +4,16 @@
 
 Thanks to your diligent work, on the last step, you have not been fired immediately. The company transfers you to train
 under a QR, who immediately sets you to work on building a pricing utility using C++ that he can directly import using
-Python. The Python script, pricing formula, and
+Python. The Python script, pricing formula, and some simple unit tests will be provided to help you with development.
 
 ## Instructions
 
-- [ ] Fork this repo for yourself
-- [ ] Clone the repo locally (Ensure you are on Branch 0!)
-- [ ] Navigate to the repository root and use `mkdir build && cd build` to create a build directory and navigate to it
-- [ ] Use `task build` to build the project, `./TradeRiskTracker` to run the executable, and `task test` to run the
-  tests
-- [ ] Identify the bug in the script and fix it
-- [ ] Update unit tests to cover the bug
-- [ ] Create a PR answering the questions below and send it to your project mentor
+- [ ] Read the given code, and attempt to understand it.
+- [ ] You will need to write your own `CMakeLists.txt`, though a `Taskfile.yml` has been provided so you can use the
+  same commands that you did in Step 0. Research and create this.
+- [ ] Implement the pricing file - `PricingUtil.cpp` and `PricingUtil.h`.
+- [ ] Modify your `CMakeLists.txt` to emit a Pybind module.
+- [ ] Ensure the provided Python file can import your module without any issues.
 
 ## Questions
 
@@ -28,7 +26,6 @@ General things:
 
 This PR Specific:
 
-1. What was the bug you found?
-2. How did you address it?
-3. What did you struggle with?
-4. Is there anything you would change about this step?
+1. What challenges did you face while writing the module from scratch?
+2. How did you ensure your unit tests are comprehensive?
+3. Did you have enough guidance to complete the task?
