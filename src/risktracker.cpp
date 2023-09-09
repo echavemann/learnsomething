@@ -7,8 +7,8 @@
 RiskTracker::RiskTracker(float x, std::vector <Trade> trades) : totalRisk(x), pendingTrades(trades) {};
 
 int RiskTracker::updateRisk() {
-    float runningSum = 0;
     this->totalRisk = 0;
+    float runningSum = 0;
     for (const auto &x: this->pendingTrades) {
         if (x.side) {
             runningSum += (x.price * x.quantity);
