@@ -12,6 +12,7 @@ TEST(TradeRiskTrackerTest, TrackerInit) {
     RiskTracker riskTracker(0, trackedTrades);
     EXPECT_EQ(riskTracker.getRisk(), 0);
     riskTracker.updateRisk();
+    riskTracker.updateRisk();
     EXPECT_EQ(riskTracker.getRisk(), 0);
     Trade testTrade3(14, true, 1.55);
     riskTracker.addTrade(testTrade3);
