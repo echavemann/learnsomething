@@ -8,6 +8,7 @@ win the competition, and submit proof that you won in your PR. Good Luck!
 
 
 ## Instructions
+- [ ] Use Poetry to get the dependencies of the project. 
 - [ ] Implement a rules based C++ strategy that abides by the given rules! Check this after all tests pass.
 - [ ] Improve the strategy so that you are able to beat the qualifying algorithm!
 - [ ] Create a PR answering the below questions.
