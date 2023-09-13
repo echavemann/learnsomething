@@ -21,3 +21,5 @@ FetchContent_Declare(
         GIT_TAG v${PYBIND11_VERSION}
 )
 FetchContent_MakeAvailable(pybind11)
+
+pybind11_add_module(Pricing MODULE src/pricingutil.cpp)
