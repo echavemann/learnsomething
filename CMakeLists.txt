@@ -22,34 +22,30 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(quill)
 
 add_executable(
-        TradeRiskTracker
+        HackathonBot
         ${CMAKE_SOURCE_DIR}/src/main.cpp
-        ${CMAKE_SOURCE_DIR}/src/trade.cpp
-        ${CMAKE_SOURCE_DIR}/src/risktracker.cpp
+        ${CMAKE_SOURCE_DIR}/src/hackathonbot.cpp
 )
 target_include_directories(
-        TradeRiskTracker PRIVATE
+        HackathonBot PRIVATE
         ${CMAKE_SOURCE_DIR}/src
 )
 
 target_link_libraries(
-        TradeRiskTracker
+        HackathonBot
         GTest::gtest_main
         quill
 )
 
 add_executable(
-        TradeRiskTrackerTests
-        ${CMAKE_SOURCE_DIR}/tst/test_trade.cpp
-        ${CMAKE_SOURCE_DIR}/tst/test_traderisktracker.cpp
-        ${CMAKE_SOURCE_DIR}/src/trade.cpp
-        ${CMAKE_SOURCE_DIR}/src/risktracker.cpp
+        HackathonBotTests
+        ${CMAKE_SOURCE_DIR}/tst/test_bot.cpp
 )
 target_include_directories(
-        TradeRiskTrackerTests PRIVATE
+        HackathonBotTests PRIVATE
         ${CMAKE_SOURCE_DIR}/src
 )
 target_link_libraries(
-        TradeRiskTrackerTests
+        HackathonBotTests
         GTest::gtest_main
 )
