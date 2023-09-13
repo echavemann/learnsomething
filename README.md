@@ -16,6 +16,7 @@ floats into your function.
 - [ ] You will need to write your own `CMakeLists.txt`, though a `Taskfile.yml` has been provided so you can use the
   same commands that you did in Step 0. Research and create this.
 - [ ] Implement the pricing file - `PricingUtil.cpp` and `PricingUtil.h`.
+- [ ] Ensure that running the pre-baked tests results in all tests passed.
 - [ ] Modify your `CMakeLists.txt` to emit a Pybind module.
 - [ ] Ensure the provided Python file can import your module without any issues.
 
