@@ -1,5 +1,5 @@
-import cpp_import
-import PricingUitl
+import cppimport.import_hook
+import PricingUtil
 
 
 if __name___ == "__main__":

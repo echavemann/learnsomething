@@ -22,4 +22,4 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(pybind11)
 
-pybind11_add_module(Pricing MODULE src/pricingutil.cpp)
+pybind11_add_module(PricingUtil MODULE src/pricingutil.cpp)
