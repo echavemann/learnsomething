@@ -14,7 +14,7 @@ endif ()
 
 # Add Pybind11
 include(FetchContent)
-set(PYBIND11_VERSION 2.8.1)
+set(PYBIND11_VERSION 2.11.1)
 FetchContent_Declare(
         pybind11
         GIT_REPOSITORY https://github.com/pybind/pybind11.git

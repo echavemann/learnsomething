@@ -12,4 +12,4 @@ tasks:
     cmds:
       - cmake ..
       - cmake --build .
-      - ./TradeRiskTrackerTests
+      - ./
