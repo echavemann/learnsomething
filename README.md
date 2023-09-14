@@ -10,15 +10,14 @@ Pricing formula is as follows:
 Theoretical Value = (Previous Price * (0.9 + Interest Rate)) * Oleo Constant.You should take all 3 variables as input
 floats into your function.
 
+Note: You will need Python Development Headers installed!
+
 ## Instructions
 
-- [ ] Read the given code, and attempt to understand it.
-- [ ] You will need to write your own `CMakeLists.txt`, though a `Taskfile.yml` has been provided so you can use the
-  same commands that you did in Step 0. Research and create this.
-- [ ] Implement the pricing file - `PricingUtil.cpp` and `PricingUtil.h`.
-- [ ] Ensure that running the pre-baked tests results in all tests passed.
-- [ ] Modify your `CMakeLists.txt` to emit a Pybind module.
-- [ ] Ensure the provided Python file can import your module without any issues.
+- [ ] Read the given code, and attempt to understand it. Ensure Poetry is installed. 
+- [ ] Write unit tests FIRST!
+- [ ] You are given a working CMakeLists and Taskfile - you need to make the unit tests work and ensure the Python module is emitted correctly.
+- [ ] Ensure the provided Python file can import your module without any issues. This will require you to move the generated *.iso.
 
 ## Questions
 

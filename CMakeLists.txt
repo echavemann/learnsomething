@@ -22,4 +22,29 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(pybind11)
 
-pybind11_add_module(PricingUtil MODULE src/pricingutil.cpp)
+include(FetchContent)
+FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) #windows tings
+FetchContent_MakeAvailable(googletest)
+enable_testing()
+
+pybind11_add_module(PricingUtil MODULE src/main.cpp)
+
+add_executable(
+  PricingUtilTests
+  ${CMAKE_SOURCE_DIR}/src/pricingutil.cpp
+  ${CMAKE_SOURCE_DIR}/tst/test_pricingutil.cpp
+  )
+
+target_include_directories(
+  PricingUtilTests PRIVATE
+  ${CMAKE_SOURCE_DIR}/src
+  )
+
+target_link_libraries(
+  PricingUtilTests
+  GTest::gtest_main
+)
