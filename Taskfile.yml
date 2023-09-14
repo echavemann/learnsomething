@@ -2,13 +2,13 @@ version: '3'
 
 tasks:
   build:
-    dir: '{{.USER_WORKING_DIR}}'
+    dir: './build'
     cmds:
       - cmake ..
       - cmake --build .
 
   test:
-    dir: '{{.USER_WORKING_DIR}}'
+    dir: './build'
     cmds:
       - cmake ..
       - cmake --build .
