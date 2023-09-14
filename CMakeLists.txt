@@ -31,7 +31,7 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) #windows tings
 FetchContent_MakeAvailable(googletest)
 enable_testing()
 
-pybind11_add_module(PricingUtil MODULE src/main.cpp)
+pybind11_add_module(PricingUtil MODULE src/main.cpp src/pricingutil.cpp)
 
 add_executable(
   PricingUtilTests
