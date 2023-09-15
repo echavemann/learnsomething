@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learnsomething-3"
+version = "0.1.0"
+description = ""
+authors = ["Ethan Havemann <echavemann@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cppimport = "^22.8.2"
+pybind11 = "^2.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
