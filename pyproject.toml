@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 cppimport = "^22.8.2"
 pybind11 = "^2.11.1"
+art = "^6.0"
 
 
 [build-system]

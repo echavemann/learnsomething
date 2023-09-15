@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  test:
+    dir: './src'
+    cmds:
+      - poetry run python3 test.py"
+  init:
+    cmds:
+      - poetry install
