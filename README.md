@@ -8,10 +8,11 @@ win the competition, and submit proof that you won in your PR. Good Luck!
 
 ## Ruleset
 - You can only have 1 stock at a time, and cannot short a stock (can't sell without having an explicit stock)
+- Assume the initial stock cost was 100
 - If the stock goes up in price for 52 windows, sell
 - If the stock goes down in price for 47 windows, sell
-- If the stock drops by over 62% when bought, sell
-- If the stock raises by over 89% when bought, sell
+- If the stock drops by over 62% from the purchase price bought, sell
+- If the stock raises by over 89% from the purchase price bought, sell
 - If the stock raises by >= 20%, drops by <= 15%, raises again by >= 30% and the overall is up by >= 50% sell
 - If the stock drops by <= 15%, raises by >= 15%, drops again by >= 25% and the overall is down by >= 45% sell
 - If stock stays +-5% for 10 cycles, sell
