@@ -3,7 +3,7 @@
 
     class Action {
     public:
-        Action();
+        Action(bool initHold = true);
         double initialBalance;
         bool buy(double price);
         bool sell(double price);

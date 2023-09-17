@@ -16,3 +16,21 @@ TEST(ActionTest, PleaseWork) {
   EXPECT_EQ(b,false);
   EXPECT_NEAR(a,0,1e-4);
 }
+
+TEST(ActionTest, basicFucntions) {
+  Action action;
+  double bal = action.getBalance();
+  EXPECT_NEAR(bal,0,1e-4);
+  bool s = action.sell(100);
+  EXPECT_EQ(s,true);
+  bal = action.getBalance();
+  EXPECT_NEAR(bal,100,1e-4);
+  s = action.sell(20);
+  EXPECT_EQ(s,false);
+  s = action.buy(50);
+  EXPECT_EQ(s,true);
+  s = action.buy(20);
+  EXPECT_EQ(s,false);
+  bal = action.getBalance();
+  EXPECT_NEAR(bal,50,1e-4);
+}
