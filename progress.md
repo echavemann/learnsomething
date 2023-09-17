@@ -6,7 +6,7 @@ Table to keep track of all progress on internship project! <br />
 ------
 
 ✅ = Finished
-✔️ = Currently Testing
+✔️ = In Review
 
 ------
 
@@ -18,6 +18,6 @@ Table to keep track of all progress on internship project! <br />
 |[Jay Park](https://github.com/kyeoul/learnsomething)|✅|||||
 |[Chris Minn](https://github.com/minnce/shxiv)|✅|✅|✔️|✅||
 |[Izzy Kinsley](https://github.com/IzzyHuang/learnsomething)||||||
-|[Daniel Majcher](https://github.com/daniel-majcher/learnsomething)|✅||||||
+|[Daniel Majcher](https://github.com/daniel-majcher/learnsomething)|✔️||||||
 
 
