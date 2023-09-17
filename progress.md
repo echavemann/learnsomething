@@ -17,5 +17,6 @@ Table to keep track of all progress on internship project! <br />
 |[Jason Lu](https://github.com/Jasonxlu/learnsomething)||||||
 |[Jay Park](https://github.com/kyeoul/learnsomething)||||||
 |[Chris Minn](https://github.com/minnce/shxiv)|✅|✅|✔️|✅||
+|[Izzy Kinsley](https://github.com/IzzyHuang/learnsomething)||||||
 
 
