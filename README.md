@@ -8,16 +8,14 @@ This 5 part series has been created due to the abundance of ... unexperienced de
 - A basic understanding of Git and GitHub.
 
 ## [Part 0: Debugging, Logging, and PRs.](https://github.com/echavemann/learnsomething/tree/Step-0)
-   
 
 ## [Part 1: Writing Novel Code, Introduction to PyBind](https://github.com/echavemann/learnsomething/tree/Step-1)
-
 
 ## [Part 2: Company Hackathon](https://github.com/echavemann/learnsomething/tree/Step-2)
  
 ## [Part 3: Solving Performance Issues](https://github.com/echavemann/learnsomething/tree/Step-3)
 
-## [Part 4: Pybinding and Integration Testing](https://github.com/echavemann/learnsomething/tree/Step-4)
+## [Part 4: Making things fasterer](https://github.com/echavemann/learnsomething/tree/Step-4)
 
 ## [Part 5: Full Design](https://github.com/echavemann/learnsomething/tree/Step-5)
 
