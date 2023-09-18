@@ -16,6 +16,9 @@ int RiskTracker::updateRisk() {
         }
     }
     this->totalRisk += runningSum;
+    
+    this->pendingTrades.clear(); // clear pending trades after updating risk
+
     return 0;
 }
 
