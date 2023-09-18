@@ -28,3 +28,16 @@ TEST(TradeRiskTrackerTest, TrackerZeroTest) {
     riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
 }
+
+TEST(TradeRiskTrackerTest, TrackerRiskUpdateTest) {
+    std::vector<Trade> trackedTrades;
+    RiskTracker riskTracker(0, trackedTrades);
+    EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
+
+    riskTracker.addTrade(Trade(50, true, 1));
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 0, 50);
+
+    riskTracker.updateRisk(); // no new trades, so risk should not change
+    EXPECT_NEAR(riskTracker.getRisk(), 0, 50); // should only update risk once
+}
