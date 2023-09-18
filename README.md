@@ -6,6 +6,7 @@ It is your first day as a SWE at a trading firm that specializes in trading Oleo
 - Use the logging library to help you understand what is happening in the code.
 
 ## Instructions
+- [ ] Add yourself to the `progress.md` file on the main branch. 
 - [ ] Fork this repo for yourself
 - [ ] Clone the repo locally (Ensure you are on Branch 0!)
 - [ ] Navigate to the repository root and use `mkdir build && cd build` to create a build directory and navigate to it
