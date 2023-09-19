@@ -1,12 +1,13 @@
 # Part 4: Making things fasterer
 
 ## Scenario
-Make the code faster. And then make it fasterer. 
+An intern has made a function to calculate all the unique prime factors for numbers in range of 2 through 1000 as part of their work. However, their code is extrememly slow and has been causing major slippage issues. You, after proving your knowledge through the previous steps are now tasked with optimizing their code.
 
 ## Instructions
-- [ ] Modify the given code until executor does more than <smaller number> operations. 
+- [ ] OPTIONAL: Run the initial code to see the time.
+- [ ] Optimize the given code to run below .3 seconds for prime factors in the range of 2-1000.
 - [ ] PR this change. 
-- [ ] Modify (if needed) until executor does more than <bigger number> operations. 
+- [ ] Make it so the code runs below .01 seconds for prime factors in the range of 2-1000. 
 - [ ] PR.
 
 
