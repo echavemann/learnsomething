@@ -21,5 +21,4 @@ Table to keep track of all progress on internship project! <br />
 |[Daniel Majcher](https://github.com/daniel-majcher/learnsomething)|✅||||||
 |[Andrew Li](https://github.com/andrlime/learnsomething)|||||||
 |[Eugenia Cao](https://github.com/eugenia0804/learnsomething)|||||||
-
-
+|[Richard Bann](https://github.com/drahc1R/learnsomething)|||||||
