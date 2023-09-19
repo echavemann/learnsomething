@@ -9,7 +9,6 @@
 
 class HackathonBot {
 public:
-
     HackathonBot();
     void takeAction(float price);
 };
