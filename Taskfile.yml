@@ -4,7 +4,7 @@ tasks:
   test:
     dir: './src'
     cmds:
-      - poetry run python3 test.py"
+      - poetry run python3 test.py
   init:
     cmds:
       - poetry install
