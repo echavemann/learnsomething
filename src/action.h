@@ -9,6 +9,7 @@
         bool sell(double price);
         bool getHold();
         double getBalance();
+        void updateBalance(double amount);
     private:
         double balance;
         bool holding;   

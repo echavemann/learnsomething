@@ -25,6 +25,7 @@ add_executable(
         HackathonBot
         ${CMAKE_SOURCE_DIR}/src/main.cpp
         ${CMAKE_SOURCE_DIR}/src/hackathonbot.cpp
+        ${CMAKE_SOURCE_DIR}/src/action.cpp
 )
 target_include_directories(
         HackathonBot PRIVATE
@@ -40,6 +41,8 @@ target_link_libraries(
 add_executable(
         HackathonBotTests
         ${CMAKE_SOURCE_DIR}/tst/test_bot.cpp
+        ${CMAKE_SOURCE_DIR}/src/action.cpp
+        ${CMAKE_SOURCE_DIR}/src/hackathonbot.cpp
 )
 target_include_directories(
         HackathonBotTests PRIVATE
