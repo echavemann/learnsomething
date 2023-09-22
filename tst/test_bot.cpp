@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 #include "action.h"
 #include "hackathonbot.h"
+#include <iostream>
 
 TEST(HackathonTests, BasicAssertion) {
     EXPECT_NEAR(4, 4, 1e-4);
@@ -37,7 +38,10 @@ TEST(ActionTest, basicFucntions) {
 }
 
 TEST(HackatonTest, basicTests) {
-  Action action;
   HackathonBot hackathonbot;
-  
+  Action action;
+  hackathonbot.takeAction(10000);
+  bool t = hackathonbot.isHolding();
+  ASSERT_EQ(t,false);
+  hackathonbot.takeAction(52);
 }
