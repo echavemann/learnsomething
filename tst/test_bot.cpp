@@ -44,4 +44,42 @@ TEST(HackatonTest, basicTests) {
   bool t = hackathonbot.isHolding();
   ASSERT_EQ(t,false);
   hackathonbot.takeAction(52);
+  ASSERT_EQ(hackathonbot.isHolding(),false);
+  hackathonbot.takeAction(51);
+  ASSERT_EQ(hackathonbot.isHolding(),true);
+  hackathonbot.takeAction(200);
+  ASSERT_EQ(hackathonbot.isHolding(),false);
+  hackathonbot.takeAction(500);
+  hackathonbot.takeAction(400);
+  hackathonbot.takeAction(350);
+  hackathonbot.takeAction(300);
+  hackathonbot.takeAction(150);
+  hackathonbot.takeAction(100);
+  ASSERT_EQ(hackathonbot.isHolding(),true);
+}
+
+TEST(HackatonTest, staycycle) {
+  HackathonBot hackathonbot;
+  Action action;
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  hackathonbot.takeAction(100);
+  ASSERT_EQ(hackathonbot.isHolding(),false);
+}
+
+TEST(HackatonTest, sellPerc) {
+  HackathonBot hackathonbot;
+  Action action;
+  hackathonbot.takeAction(188);
+  ASSERT_EQ(hackathonbot.isHolding(),true);
+  hackathonbot.takeAction(190);
+  ASSERT_EQ(hackathonbot.isHolding(),false);
 }
