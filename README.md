@@ -13,11 +13,11 @@ win the competition, and submit proof that you won in your PR. Good Luck!
 - If the stock goes down in price for 47 windows, sell
 - If the stock drops by over 62% from the purchase price bought, sell
 - If the stock raises by over 89% from the purchase price bought, sell
-- If the stock raises by >= 20%, drops by <= 15%, raises again by >= 30% and the percent change in the 3 series window is up by >= 50% sell
-- If the stock drops by <= 15%, raises by >= 15%, drops again by >= 25% and the percent change OVERALL is down by >= 45% sell
-- If stock stays +-5% for 10 cycles, sell
-- If the stock is less than 52, buy
-- If the stock drops in price for 5 windows, buy
+- If (after buying) the stock raises by >= 20%, drops by <= 15%, raises again by >= 30% and the percent change in the 3 series window is up by >= 50% sell
+- If (after buying) the stock drops by <= 15%, raises by >= 15%, drops again by >= 25% and the percent change OVERALL is down by >= 45% sell
+- If stock stays +-5% for 10 cycles (after buying), sell
+- If the stock price is less than 52, buy
+- If the stock drops in price for 5 windows (after selling), buy
 
 ## Instructions
 - [ ] Use Poetry to get the dependencies of the project. 
