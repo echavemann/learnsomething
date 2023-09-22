@@ -23,4 +23,4 @@ Table to keep track of all progress on internship project! <br />
 |[Eugenia Cao](https://github.com/eugenia0804/learnsomething)|||||||
 |[Richard Bann](https://github.com/drahc1R/learnsomething)|||||||
 |[Tom Tiamraj](https://github.com/JerayuT/learnsomething)|||||||
-|[Miya Liu](https://github.com/miyaliu627/learnsomething)|||||||
+|[Miya Liu](https://github.com/miyaliu627/learnsomething)|✅||||||
