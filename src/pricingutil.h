@@ -9,7 +9,7 @@
 class PricingUtil {
   public:
     PricingUtil();
-    float val = 0;
+    float val = 0.0;
     float calcVal(float prevPrice, float interest, float oleoConstant);
     float getVal();
 };
