@@ -17,6 +17,7 @@ Note: You will need Python Development Headers installed!
 - [ ] Read the given code, and attempt to understand it. Ensure Poetry is installed. 
 - [ ] Write unit tests FIRST!
 - [ ] You are given a working CMakeLists and Taskfile - you need to make the unit tests work and ensure the Python module is emitted correctly.
+- [ ] Be sure to account for various edge cases - to name a few, zero interest, negative previous price, etc!
 - [ ] Ensure the provided Python file can import your module without any issues. This will require you to move the generated *.iso.
 
 ## Questions
