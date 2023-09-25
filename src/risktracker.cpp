@@ -15,7 +15,7 @@ int RiskTracker::updateRisk() {
             runningSum -= (x.price * x.quantity);
         }
     }
-    this->totalRisk += runningSum;
+    this->totalRisk = runningSum;
     return 0;
 }
 
