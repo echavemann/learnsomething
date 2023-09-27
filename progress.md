@@ -26,12 +26,12 @@ Table to keep track of all progress on internship project! <br />
 | [David Park](https://github.com/dpark4/learnsomething)             |||||||
 | [Richard Lam](https://github.com/Lam-Richard/learnsomething)       |||||||
 | [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |||||||
-| [Blake Hu](https://github.com/blake-hu/learnsomething)             |✅|✅|||||
+| [Blake Hu](https://github.com/blake-hu/learnsomething)             |✅|✅|✅||||
 
 # Team Progress Tracker (By Steps)
 
+Core 2: 12  <br />
 Short Horizons: 11  <br />
-Core 2: 11  <br />
 Core 1: 3  <br /> 
 Deep Learning: 0  <br />
 Reinforcement Learning: 0
