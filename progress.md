@@ -13,10 +13,10 @@ Table to keep track of all progress on internship project! <br />
 | ------------------------------------------------------------------ | :----: | :----: | :----: | :----: | :----: | :----: |
 | [Jerry Han](https://github.com/jerry-hannn/nuft-training)          ||||||
 | [Jason Lu](https://github.com/Jasonxlu/learnsomething)             |✅|||||
-| [Jay Park](https://github.com/kyeoul/learnsomething)               |✅|✅|✅|||
+| [Jay Park](https://github.com/kyeoul/learnsomething)               |✅|✅|✅|✅||
 | [Chris Minn](https://github.com/minnce/shxiv)                      |✅|✅|✅|✅|✅|✅|
 | [Izzy Kinsley](https://github.com/IzzyHuang/learnsomething)        ||||||
-| [Daniel Majcher](https://github.com/daniel-majcher/learnsomething) |✅|✅|✔️|✅|✅||
+| [Daniel Majcher](https://github.com/daniel-majcher/learnsomething) |✅|✅|✅|✅|✅||
 | [Andrew Li](https://github.com/andrlime/learnsomething)            |✅|✅|✅|✅|✅|✅|
 | [Eugenia Cao](https://github.com/eugenia0804/learnsomething)       |||||||
 | [Richard Bann](https://github.com/drahc1R/learnsomething)          |✅||||||
@@ -32,8 +32,8 @@ Table to keep track of all progress on internship project! <br />
 
 # Team Progress Tracker (By Steps)
 
-Short Horizons: 11  <br />
+Short Horizons: 12  <br />
 Core 2: 10  <br />
-Core 1: 3  <br /> 
+Core 1: 4  <br /> 
 Deep Learning: 1  <br />
 Reinforcement Learning: 0
