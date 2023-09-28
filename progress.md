@@ -25,7 +25,7 @@ Table to keep track of all progress on internship project! <br />
 | [John Hileman](https://github.com/jhileman07/learnsomething)       |||||||
 | [David Park](https://github.com/dpark4/learnsomething)             |||||||
 | [Richard Lam](https://github.com/Lam-Richard/learnsomething)       |||||||
-| [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |||||||
+| [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |✅||||||
 | [Blake Hu](https://github.com/blake-hu/learnsomething)             |✅|✅|✅||||
 | [Daniel Lee](https://github.com/Dsl03/learnsomething/)             |||||||
 
@@ -34,5 +34,5 @@ Table to keep track of all progress on internship project! <br />
 Core 2: 12  <br />
 Short Horizons: 11  <br />
 Core 1: 3  <br /> 
-Deep Learning: 0  <br />
+Deep Learning: 1  <br />
 Reinforcement Learning: 0
