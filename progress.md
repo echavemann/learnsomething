@@ -29,6 +29,7 @@ Table to keep track of all progress on internship project! <br />
 | [Blake Hu](https://github.com/blake-hu/learnsomething)             |✅|✅|✅||||
 | [Daniel Lee](https://github.com/Dsl03/learnsomething/)             |||||||
 | [Elysia Lopez](https://github.com/ElysiaLopez/learnsomething)      |||||||
+| [Kevin Liu](https://github.com/kliu3638/learnsomething)            |||||||
 
 # Team Progress Tracker (By Steps)
 
