@@ -16,7 +16,7 @@ Table to keep track of all progress on internship project! <br />
 | [Jay Park](https://github.com/kyeoul/learnsomething)               |✅|✅|✅|||
 | [Chris Minn](https://github.com/minnce/shxiv)                      |✅|✅|✅|✅|✅|✅|
 | [Izzy Kinsley](https://github.com/IzzyHuang/learnsomething)        ||||||
-| [Daniel Majcher](https://github.com/daniel-majcher/learnsomething) |✅|✅||✅|✅||
+| [Daniel Majcher](https://github.com/daniel-majcher/learnsomething) |✅|✅|✔️|✅|✅||
 | [Andrew Li](https://github.com/andrlime/learnsomething)            |✅|✅|✅|✅|✅|✅|
 | [Eugenia Cao](https://github.com/eugenia0804/learnsomething)       |||||||
 | [Richard Bann](https://github.com/drahc1R/learnsomething)          |✅||||||
