@@ -27,6 +27,7 @@ Table to keep track of all progress on internship project! <br />
 | [Richard Lam](https://github.com/Lam-Richard/learnsomething)       |||||||
 | [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |||||||
 | [Blake Hu](https://github.com/blake-hu/learnsomething)             |✅||||||
+| [Aria Hoesley](https://github.com/mochi26/learnsomething)          |||||||
 
 # Team Progress Tracker (By Steps)
 
