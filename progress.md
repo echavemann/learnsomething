@@ -31,8 +31,8 @@ Table to keep track of all progress on internship project! <br />
 
 # Team Progress Tracker (By Steps)
 
+Core 2: 12  <br />
 Short Horizons: 11  <br />
-Core 2: 10  <br />
 Core 1: 3  <br /> 
-Deep Learning: 0  <br />
+Deep Learning: 1  <br />
 Reinforcement Learning: 0
