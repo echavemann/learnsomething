@@ -5,9 +5,9 @@ An intern has made a function to calculate all the unique prime factors for numb
 
 ## Instructions
 - [ ] OPTIONAL: Run the initial code to see the time.
-- [ ] Optimize the given code to run below .07 seconds for calculating the prime factorization of all numbers from 2-1000, including 2, excluding 1000.
+- [ ] Optimize the given code to run below .07 seconds for calculating the prime factorization of all numbers from 2-2500, including 2, excluding 2500.
 - [ ] PR this change. 
-- [ ] Write code that runs below .0001 seconds for calculating the prime factorization of all numbers from 2-1000, including 2, excluding 1000.
+- [ ] Write code that runs below .0001 seconds for calculating the prime factorization of all numbers from 2-2500, including 2, excluding 2500.
 - [ ] PR.
 
 
