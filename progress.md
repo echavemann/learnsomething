@@ -30,6 +30,11 @@ Table to keep track of all progress on internship project! <br />
 | [Daniel Lee](https://github.com/Dsl03/learnsomething/)             |||||||
 | [Elysia Lopez](https://github.com/ElysiaLopez/learnsomething)      |||||||
 | [Kevin Liu](https://github.com/kliu3638/learnsomething)            |||||||
+| [Aria Hoesley](https://github.com/mochi26)                         |||||||
+| [Ryan Poon](https://github.com/ryanp8)                             |||||||
+| [Brennan Benson](https://github.com/brennanb2025)                  |||||||
+
+
 
 # Team Progress Tracker (By Steps)
 
