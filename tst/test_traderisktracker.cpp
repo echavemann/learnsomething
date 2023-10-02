@@ -28,3 +28,21 @@ TEST(TradeRiskTrackerTest, TrackerZeroTest) {
     riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
 }
+
+TEST(TradeRiskTrackerTest, TrackerBugfixTest) {
+    std::vector<Trade> trackedTrades;
+    RiskTracker riskTracker(0, trackedTrades);
+    EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
+
+    riskTracker.addTrade(Trade(14, true, 1.6));
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 22.4, 1e-4);
+
+    riskTracker.addTrade(Trade(10, false, 1.6));
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 6.4, 1e-4);
+
+    riskTracker.addTrade(Trade(7, true, 2.5));
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 23.9, 1e-4);
+}

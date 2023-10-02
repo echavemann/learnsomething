@@ -6,14 +6,14 @@ It is your first day as a SWE at a trading firm that specializes in trading Oleo
 - Use the logging library to help you understand what is happening in the code.
 
 ## Instructions
-- [ ] Add yourself to the `progress.md` file on the main branch. 
-- [ ] Fork this repo for yourself
-- [ ] Clone the repo locally (Ensure you are on Branch 0!)
-- [ ] Navigate to the repository root and use `mkdir build && cd build` to create a build directory and navigate to it
-- [ ] Use `task build` to build the project, `./TradeRiskTracker` to run the executable, and `task test` to run the tests
-- [ ] Identify the bug in the script and fix it
-- [ ] Update unit tests to cover the bug
-- [ ] Create a PR answering the questions below and send it to your project mentor
+- [x] Add yourself to the `progress.md` file on the main branch. 
+- [x] Fork this repo for yourself
+- [x] Clone the repo locally (Ensure you are on Branch 0!)
+- [x] Navigate to the repository root and use `mkdir build && cd build` to create a build directory and navigate to it
+- [x] Use `task build` to build the project, `./TradeRiskTracker` to run the executable, and `task test` to run the tests
+- [x] Identify the bug in the script and fix it
+- [x] Update unit tests to cover the bug
+- [x] Create a PR answering the questions below and send it to your project mentor
 
 
 ## Questions
