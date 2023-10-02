@@ -16,6 +16,7 @@ int RiskTracker::updateRisk() {
         }
     }
     this->totalRisk += runningSum;
+    this->pendingTrades = std::vector<Trade>();
     return 0;
 }
 
