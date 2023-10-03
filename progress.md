@@ -34,7 +34,7 @@ Table to keep track of all progress on internship project! <br />
 | [Ryan Poon](https://github.com/ryanp8/learnsomething)              |||||||
 | [Brennan Benson](https://github.com/brennanb2025/learnsomething)   |||||||
 | [Wendy Huang](https://github.com/WendyHuang26/learnsomething)      |||||||
-
+| [Akash Vikram Shroff](https://github.com/akashvshroff)             |||||||
 
 
 # Team Progress Tracker (By Steps)
