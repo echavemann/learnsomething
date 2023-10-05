@@ -25,7 +25,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [John Hileman](https://github.com/jhileman07/learnsomething)       |||||||
 | [David Park](https://github.com/dpark4/learnsomething)             |||||||
 | [Richard Lam](https://github.com/Lam-Richard/learnsomething)       |✅||||||
-| [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |✅||||||
+| [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |✅|✅||||✅|
 | [Blake Hu](https://github.com/blake-hu/learnsomething)             |✅|✅|✅|✅|✅|✅|✅
 | [Daniel Lee](https://github.com/Dsl03/learnsomething/)             |||||||
 | [Elysia Lopez](https://github.com/ElysiaLopez/learnsomething)      |||||||
