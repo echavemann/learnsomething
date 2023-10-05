@@ -13,14 +13,15 @@ if (CMAKE_BUILD_TYPE STREQUAL "Release")
 endif ()
 
 # Add Pybind11
-include(FetchContent)
-set(PYBIND11_VERSION 2.11.1)
-FetchContent_Declare(
-        pybind11
-        GIT_REPOSITORY https://github.com/pybind/pybind11.git
-        GIT_TAG v${PYBIND11_VERSION}
-)
-FetchContent_MakeAvailable(pybind11)
+# include(FetchContent)
+# set(PYBIND11_VERSION 2.11.1)
+# FetchContent_Declare(
+#         pybind11
+#         GIT_REPOSITORY https://github.com/pybind/pybind11.git
+#         GIT_TAG v${PYBIND11_VERSION}
+# )
+# FetchContent_MakeAvailable(pybind11)
+
 
 include(FetchContent)
 FetchContent_Declare(
