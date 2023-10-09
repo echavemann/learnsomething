@@ -22,7 +22,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Richard Bann](https://github.com/drahc1R/learnsomething)          |✅|✅||✔️|✅|✅|
 | [Tom Tiamraj](https://github.com/JerayuT/learnsomething)           |||||||
 | [Miya Liu](https://github.com/miyaliu627/learnsomething)           |✅|✅|✅|✅|✅|✅|✅|
-| [John Hileman](https://github.com/jhileman07/learnsomething)       |✔️|✔️|||||
+| [John Hileman](https://github.com/jhileman07/learnsomething)       |✅|✅|||||
 | [David Park](https://github.com/dpark4/learnsomething)             |||||||
 | [Richard Lam](https://github.com/Lam-Richard/learnsomething)       |✅|✅|||||
 | [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |✅|✅||||✅|
@@ -35,7 +35,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Brennan Benson](https://github.com/brennanb2025/learnsomething)   |||||||
 | [Wendy Huang](https://github.com/WendyHuang26/learnsomething)      |||||||
 | [Eric Chen](https://github.com/10cirenehc/learnsomething)          |✅|✅||✅||✅|
-| [Akash Vikram Shroff](https://github.com/akashvshroff)             |✅|||||✅|
+| [Akash Vikram Shroff](https://github.com/akashvshroff)             |✅|✅|✅|✅||✅|
 
 # Team Progress Tracker (By Steps)
 
