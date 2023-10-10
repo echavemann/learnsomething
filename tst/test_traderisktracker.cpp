@@ -12,9 +12,13 @@ TEST(TradeRiskTrackerTest, TrackerInit) {
     RiskTracker riskTracker(0, trackedTrades);
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
     riskTracker.updateRisk();
+    riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
     Trade testTrade3(14, true, 1.55);
     riskTracker.addTrade(testTrade3);
+    riskTracker.updateRisk();
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 21.7, 1e-4);
     riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 21.7, 1e-4);
 }
@@ -26,5 +30,12 @@ TEST(TradeRiskTrackerTest, TrackerZeroTest) {
     riskTracker.addTrade(Trade(44, true, 1.6));
     riskTracker.addTrade(Trade(44, false, 1.6));
     riskTracker.updateRisk();
+    riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
+    riskTracker.addTrade(Trade(5, true, 1.2));
+    riskTracker.updateRisk();
+    riskTracker.addTrade(Trade(1, true, 3));
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 9, 1e-4);
+
 }

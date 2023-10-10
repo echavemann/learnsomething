@@ -10,6 +10,6 @@ tasks:
   test:
     dir: './build'
     cmds:
-      - cmake ..
-      - cmake --build .
+      #- cmake ..
+      #- cmake --build .
       - ./TradeRiskTrackerTests
