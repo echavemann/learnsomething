@@ -27,4 +27,7 @@ TEST(TradeRiskTrackerTest, TrackerZeroTest) {
     riskTracker.addTrade(Trade(44, false, 1.6));
     riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
+    riskTracker.addTrade(Trade(15, true, 1));
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 15, 1e-4);
 }
