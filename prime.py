@@ -17,11 +17,23 @@ def disasterCode():
                 uniquePrimes.append(checkPrime)
         if len(uniquePrimes) == 0:
             uniquePrimes.append(i)
+            
+def betterCode():
+    primes = [True] * (2500)
+    p = 2
+    while p * p < 2500:
+        if primes[p]:
+            for i in range(p * p, 2500, p):
+                primes[i] = False
+        p += 1
+    primes = [i for i in range(2, 2500) if primes[i]]
+    
+    return primes
 
 # Benchmark the code
 if __name__ == "__main__":
-    benchmark_code = "disasterCode()"
-    setup_code = "from __main__ import disasterCode"
+    benchmark_code = "betterCode()"
+    setup_code = "from __main__ import betterCode"
 
     # Measure the execution time of disasterCode function
     times = []
