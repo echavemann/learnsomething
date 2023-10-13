@@ -18,7 +18,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Izzy Kinsley](https://github.com/IzzyHuang/learnsomething)        ||||||
 | [Daniel Majcher](https://github.com/daniel-majcher/learnsomething) |✅|✅|✅|✅|✅|✅|✅|
 | [Andrew Li](https://github.com/andrlime/learnsomething)            |✅|✅|✅|✅|✅|✅|✅|
-| [Eugenia Cao](https://github.com/eugenia0804/learnsomething)       |✔️|✔️|✅||✔️|✅|
+| [Eugenia Cao](https://github.com/eugenia0804/learnsomething)       |✅|✅|✅|✔️|✔️|✅|
 | [Richard Bann](https://github.com/drahc1R/learnsomething)          |✅|✅|||✅|✅|
 | [Tom Tiamraj](https://github.com/JerayuT/learnsomething)           |||||||
 | [Miya Liu](https://github.com/miyaliu627/learnsomething)           |✅|✅|✅|✅|✅|✅|✅|
@@ -33,7 +33,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Aria Hoesley](https://github.com/mochi26/learnsomething)          |✅|||||✅|✅|
 | [Ryan Poon](https://github.com/ryanp8/learnsomething)              |✅|✔️|✅||||
 | [Brennan Benson](https://github.com/brennanb2025/learnsomething)   |||||||
-| [Wendy Huang](https://github.com/WendyHuang26/learnsomething)      |||||||
+| [Wendy Huang](https://github.com/WendyHuang26/learnsomething)      |✅||||||
 | [Eric Chen](https://github.com/10cirenehc/learnsomething)          |✅|✅|✅|✅|✅|✅|✅|
 | [Akash Vikram Shroff](https://github.com/akashvshroff)             |✅|✅|✅|✅|✅||✅|
 
