@@ -28,3 +28,16 @@ TEST(TradeRiskTrackerTest, TrackerZeroTest) {
     riskTracker.updateRisk();
     EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
 }
+
+//bug fix: now if we have a position, calling updateRisk() two times does not change the risk value
+
+TEST(TradeRiskTrackerTest, TrackerUpdateTest) {
+    std::vector<Trade> trackedTrades;
+    trackedTrades.push_back(Trade(7, true, 1.4));
+    RiskTracker riskTracker(0, trackedTrades);
+    EXPECT_NEAR(riskTracker.getRisk(), 0, 1e-4);
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 9.8, 1e-4);
+    riskTracker.updateRisk();
+    EXPECT_NEAR(riskTracker.getRisk(), 9.8, 1e-4);
+}
