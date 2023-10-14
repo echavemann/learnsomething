@@ -36,6 +36,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Wendy Huang](https://github.com/WendyHuang26/learnsomething)      |✅|✅|✅|✅|✔️||✅|
 | [Eric Chen](https://github.com/10cirenehc/learnsomething)          |✅|✅|✅|✅|✅|✅|✅|
 | [Akash Vikram Shroff](https://github.com/akashvshroff)             |✅|✅|✅|✅|✅||✅|
+| [Peter Lau](https://github.com/pl712)             ||||||||
 
 # Team Progress Tracker (By Steps)
 
