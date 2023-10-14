@@ -11,7 +11,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 
 | Name                                                               | Step 0 | Step 1 | Step 2 | Step 3 | Step 4 | Step 5 | Reading |
 | ------------------------------------------------------------------ | :----: | :----: | :----: | :----: | :----: | :----: | :-----: |
-| [Jerry Han](https://github.com/jerry-hannn/nuft-training)          |✅|✅||||
+| [Jerry Han](https://github.com/jerry-hannn/nuft-training)          |✅|✅|✅|✅||
 | [Jason Lu](https://github.com/Jasonxlu/learnsomething)             |✅|✅||||
 | [Jay Park](https://github.com/kyeoul/learnsomething)               |✅|✅|✅|✅|✅|✅|✅|
 | [Chris Minn](https://github.com/minnce/shxiv)                      |✅|✅|✅|✅|✅|✅|✅|
