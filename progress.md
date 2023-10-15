@@ -22,7 +22,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Richard Bann](https://github.com/drahc1R/learnsomething)          |✅|✅|||✅|✅|
 | [Tom Tiamraj](https://github.com/JerayuT/learnsomething)           |||||||
 | [Miya Liu](https://github.com/miyaliu627/learnsomething)           |✅|✅|✅|✅|✅|✅|✅|
-| [John Hileman](https://github.com/jhileman07/learnsomething)       |✅|✅|✅|✅|✅||✅
+| [John Hileman](https://github.com/jhileman07/learnsomething)       |✅|✅|✅|✅|✅|✅|✅
 | [David Park](https://github.com/dpark4/learnsomething)             |✅||||||
 | [Richard Lam](https://github.com/Lam-Richard/learnsomething)       |✅|✅|✅|✅|✅|✅|✅
 | [Zexuan Zhou](https://github.com/HZZX0318/learnsomething)          |✅|✅||||✅|
