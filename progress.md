@@ -31,7 +31,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Elysia Lopez](https://github.com/ElysiaLopez/learnsomething)      |||||||
 | [Kevin Liu](https://github.com/kliu3638/learnsomething)            |✅|✅|✅|✅|✅|✅|✅|
 | [Aria Hoesley](https://github.com/mochi26/learnsomething)          |✅|||||✅|✅|
-| [Ryan Poon](https://github.com/ryanp8/learnsomething)              |✅|✅|✅|✔️|✅|✅|
+| [Ryan Poon](https://github.com/ryanp8/learnsomething)              |✅|✅|✅|✔️|✅|✅|✅
 | [Brennan Benson](https://github.com/brennanb2025/learnsomething)   |||||||
 | [Wendy Huang](https://github.com/WendyHuang26/learnsomething)      |✅|✅|✅|✅|✅|✅|✅|
 | [Eric Chen](https://github.com/10cirenehc/learnsomething)          |✅|✅|✅|✅|✅|✅|✅|
