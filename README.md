@@ -1,21 +1,10 @@
-# Trading Oleos
-This 5 part series has been created due to the abundance of ... unexperienced developers entering NUFT and causing a lot of trouble for the community. This series will cover the basics of what we do software-wise, and is intended to be a prerequisite to all other development-related roles in NUFT. 
+# Intern Project Reading
 
-## Pre-requisites
-- [CMake](https://cmake.org/), [Taskfile](https://taskfile.dev/), [Git](https://git-scm.com/), and [Python3](https://www.python.org/) installed.   
-- A UNIX environment (WSL, Linux, MacOS, MinGW/[MSYS2](https://www.msys2.org/), etc.)
-- A basic understanding of C++ and Python.
-- A basic understanding of Git and GitHub.
-
-## [Part 0: Debugging, Logging, and PRs.](https://github.com/echavemann/learnsomething/tree/Step-0)
-
-## [Part 1: Writing Novel Code, Introduction to PyBind](https://github.com/echavemann/learnsomething/tree/Step-1)
-
-## [Part 2: Company Hackathon](https://github.com/echavemann/learnsomething/tree/Step-2)
- 
-## [Part 3: Solving Performance Issues](https://github.com/echavemann/learnsomething/tree/Step-3)
-
-## [Part 4: Making things fasterer](https://github.com/echavemann/learnsomething/tree/Step-4)
-
-## [Part 5: Full Design](https://github.com/echavemann/learnsomething/tree/Step-5)
-
+We noticed that some people’s first reaction to not having a tool available (such as Taskfile) was to pip install it. The thing is, anytime you install a package with PIP, NPM, and most other package managers, they allow the published of the package to run arbitrary code on your machine. Now, since we don’t feel like removing BTC miners from our servers, we have added this assignment.
+The two articles you have to read are linked below. Please PR this file with the answers.
+- What file does PIP execute upon installing a package?
+- What are the payloads of malicious packages typically used for?
+- How do the malware authors name their packages to get unsuspecting users to download them?  
+### Articles:  
+- https://cyble.com/blog/over-45-thousand-users-fell-victim-to-malicious-pypi-packages/
+- https://unit42.paloaltonetworks.com/malicious-packages-in-pypi/
