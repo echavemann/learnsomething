@@ -36,10 +36,3 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Eric Chen](https://github.com/10cirenehc/learnsomething)          |✅|✅|✅|✅|✅|✅|✅|
 | [Akash Vikram Shroff](https://github.com/akashvshroff)             |✅|✅|✅|✅|✅|✅|✅|
 
-# Team Progress Tracker (By Steps)
-
-Short Horizons: 11  <br />
-Core 2: 21  <br />
-Core 1: 4  <br /> 
-Deep Learning: 1  <br />
-Reinforcement Learning: -2
