@@ -12,7 +12,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | Name                                                               | Step 0 | Step 1 | Step 2 | Step 3 | Step 4 | Step 5 | Reading |
 | ------------------------------------------------------------------ | :----: | :----: | :----: | :----: | :----: | :----: | :-----: |
 | [Gavin Wang]()                                                     ||||||||
-| [Max Glass]()                                                      ||||||||
+| [Max Glass](https://github.com/glasss13/learnsomething)            |✅|✔️||||||
 | [Jenny Zhou]()                                                     ||||||||
 | [Bill Zhu]()                                                       ||||||||
 | [Milind Maiti]()                                                   ||||||||
