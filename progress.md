@@ -15,7 +15,7 @@ Table to keep track of all progress on internship project! <br />https://github.
 | [Max Glass](https://github.com/glasss13/learnsomething)            |✅|✅||||||
 | [Jenny Zhou](https://github.com/jiayi-jenny-zhou/learnsomething)   ||||||||
 | [Bill Zhu](https://github.com/billz0824/learnsomething)            ||||||||
-| [Milind Maiti](https://github.com/KingCrusher275/learnsomething)   ||||||||
+| [Milind Maiti](https://github.com/KingCrusher275/learnsomething)   |✅|||||||
 | [Cameron Weiner](https://github.com/LeakedYew/learnsomething)      ||||||||
 | [Jerry Han](https://github.com/jerry-hannn/nuft-training)          |✅|✅|✅|✅|✅|✅|✅|
 | [Jason Lu](https://github.com/Jasonxlu/learnsomething)             |✅|✅|✅|✅|✅|✅|✅|
