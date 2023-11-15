@@ -15,7 +15,7 @@ int RiskTracker::updateRisk() {
             runningSum -= (x.price * x.quantity);
         }
     }
-    this->totalRisk += runningSum;
+    this->totalRisk = runningSum;
     return 0;
 }
 
@@ -28,3 +28,4 @@ float RiskTracker::getRisk() {
     return this->totalRisk;
 }
 
+//bug, it double counts risk when you update more than once, meaning that risk accumulates rather than updates
