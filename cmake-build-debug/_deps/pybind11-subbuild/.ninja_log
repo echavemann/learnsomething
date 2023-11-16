@@ -1,0 +1,21 @@
+# ninja log v5
+0	66	1700086927275760799	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-mkdir	90059a0b7518b68d
+0	66	1700086927275760799	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-mkdir	90059a0b7518b68d
+66	2061	1700086929271512500	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-download	4052bd81cfeee11f
+66	2061	1700086929271512500	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-download	4052bd81cfeee11f
+2062	2163	0	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-update	f1b21883901aea6c
+2062	2163	0	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-update	f1b21883901aea6c
+2163	2211	1700086929421096354	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-patch	422866bb7324d119
+2163	2211	1700086929421096354	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-patch	422866bb7324d119
+2211	2260	1700086929470284644	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-configure	f44edcd8aefbbf13
+2211	2260	1700086929470284644	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-configure	f44edcd8aefbbf13
+2260	2308	1700086929518401012	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-build	c1b6b04e865a7241
+2260	2308	1700086929518401012	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-build	c1b6b04e865a7241
+2309	2356	1700086929566514192	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-install	590be6da9ef6bb09
+2309	2356	1700086929566514192	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-install	590be6da9ef6bb09
+2356	2404	1700086929614395911	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-test	ee24f803e6258cad
+2356	2404	1700086929614395911	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-test	ee24f803e6258cad
+2404	2497	1700086929706807426	CMakeFiles/pybind11-populate-complete	42d2892414c8328
+2404	2497	1700086929706807426	pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-done	42d2892414c8328
+2404	2497	1700086929706807426	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/CMakeFiles/pybind11-populate-complete	42d2892414c8328
+2404	2497	1700086929706807426	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/pybind11-populate-done	42d2892414c8328

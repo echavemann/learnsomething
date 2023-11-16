@@ -1,0 +1,21 @@
+# ninja log v5
+0	53	1700086930762604075	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	1a6f06ee286ce5d
+0	53	1700086930762604075	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	1a6f06ee286ce5d
+54	889	1700086931598612367	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f83f06a92aa1ea4c
+54	889	1700086931598612367	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	f83f06a92aa1ea4c
+890	949	1700086931657921868	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	d6de0208b96ecded
+890	949	1700086931657921868	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	d6de0208b96ecded
+949	1004	1700086931713317812	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	73416c5318a28294
+949	1004	1700086931713317812	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	73416c5318a28294
+1005	1057	1700086931766849796	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	cc24948fd89c8f34
+1005	1057	1700086931766849796	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	cc24948fd89c8f34
+1058	1110	1700086931818443557	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	e7b7d37d4e14f74d
+1058	1110	1700086931818443557	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	e7b7d37d4e14f74d
+1110	1162	1700086931870502340	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	403fd12ddf0cb09f
+1110	1162	1700086931870502340	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	403fd12ddf0cb09f
+1162	1210	1700086931918931157	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	65b401f490c0d997
+1162	1210	1700086931918931157	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	65b401f490c0d997
+1210	1286	1700086931995350018	CMakeFiles/googletest-populate-complete	f76fb0d5c734e08c
+1210	1286	1700086931995350018	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	f76fb0d5c734e08c
+1210	1286	1700086931995350018	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	f76fb0d5c734e08c
+1210	1286	1700086931995350018	/Users/FranklinZhao/fintech/learnsomething/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	f76fb0d5c734e08c
